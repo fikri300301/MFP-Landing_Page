@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/icon/nm.png" type="image/x-icon">
+
+    <!-- animate style -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- scroll animation by aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- favicon -->
+     <link rel="stylesheet" href="./dist/css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Starter Landing Page Bootsrap 5</title>
+  </head>
+  <body id="home">
+
+    <!--navbar -->
+    <nav class="navbar navbar-expand-lg bg-danger py-2 animate__animated animate__fadeInDown">
+        <div class="container">
+           <a class="navbar-brand" href="#">
+          <img src="./assets/icon/nm.png" alt="" width="30" height="30" class="d-inline-block align-text-top rounded">
+            <span class="fw-bold text-white">Ngoding</span>
+            </a>
+          <button class="navbar-toggler bg-white shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto d-flex gap-3 text-center pt-lg-0 pt-4">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#service">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#project">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#faq">FAQ</a>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!--hero section-->
+      <section class="hero">
+        <div class="container">
+          <!--pembungkus box-->
+          <div class="hero-box d-flex align-items-center justify-content-between flex-md-row flex-column gap-md-0 gap-5">
+
+            <!--box pertama-->
+            <div class="box animate__animated animate__fadeInLeft animate__delay-1s">
+                <h1 class="fw-bold">Starter Landing Page<br />
+                  Bersama <span class="text-danger"> MFP - TECH</span> <br />
+                  2024
+                </h1>
+                <p class="lh-lg mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus amet perferendis rerum iusto perspiciatis. Aperiam ducimus aut adipisci eius unde!</p>
+
+                 <!--div button-->
+              <div>
+                <a href="#about" class="btn btn-danger">Tentang Kami</a>
+                <a href="#project" class="btn btn-outline-danger">Our Project</a>
+              </div>
+                <!--div button--> 
+            </div>
+            <!--box pertama-->
+
+            <!--box kedua-->
+            <div class="box animate__animated animate__fadeInRight animate__delay-1s">
+                <img src="./assets/gambar/hero.svg" alt="Hero Image">
+            </div>
+
+          </div>
+        </div>
+      </section>
+    <!--hero section-->
+
+    <!--section about-->
+    <div class="about" id="about">
+      <div class="container">
+        <div class="about-box text-center">
+          <h1 class="fw-bold mb-4" data-aos="fade-up" data-aos-duration="1000">Tentang Kami</h1>
+          <p class="lh-lg mb-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Molestiae commodi corporis ipsam quam qui odio,
+            repellat repellendus facilis fugit possimus?
+            Repudiandae inventore cupiditate aliquid commodi
+            omnis officiis recusandae cumque dolorem!
+          </p>
+          <img class="content-center" data-aos="fade-up" data-aos-duration="500" src="./assets/gambar/about.svg" alt="About Image">
+        </div>
+      </div>
+    </div>
+    <!--section about-->
+
+    <!--section services-->
+    <div class="service" id="service">
+      <div class="container">
+        <div class="service-box">
+          <h1 class="fw-bold mb-3 mt-4">Layanan</h1>
+          <p class="lh-lg mb-3">Lorem ipsum dolor sit amet consectetur 
+            dipisicing elit. Placeat, similique possimus quasi 
+            aspernatur ut sed explicabo!</p>
+
+          <div class="box pt-4 d-flex gap-3 flex-md-row flex-column">
+            <div class="service p-4 shadow bg-danger text-white rounded-3">
+              <i class="fa-solid fa-folder-tree mb-3"></i>
+              <h4 class="fw-bold mb-4">Codingan Terstruktur</h4>
+              <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Ducimus eum blanditiis sit porro iste repellendus cupiditate suscipit 
+                 corporis placeat facilis.</p>
+            </div>
+
+            <div class="service p-4 shadow bg-danger text-white rounded-3">
+              <i class="fa-solid fa-user-tie mb-3"></i>
+              <h4 class="fw-bold mb-4">Codingan Terstruktur</h4>
+              <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Ducimus eum blanditiis sit porro iste repellendus cupiditate suscipit 
+                 corporis placeat facilis.</p>
+            </div>
+
+            <div class="service p-4 shadow bg-danger text-white rounded-3">
+              <i class="fa-solid fa-star mb-3"></i>
+              <h4 class="fw-bold mb-4">Codingan Terstruktur</h4>
+              <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Ducimus eum blanditiis sit porro iste repellendus cupiditate suscipit 
+                 corporis placeat facilis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--section services-->
+
+    <!--section project-->
+    <div class="projects" id="project">
+      <div class="container px-4">
+        <div class="project-box">
+          <h1 class="fw-bold mb-3 text-center" style="margin-top: 100px;">Projek Kami</h1>
+          <p class="lh-lg mb-3 text-center">Lorem ipsum dolor sit amet consectetur 
+            dipisicing elit. Placeat, similique possimus quasi 
+            aspernatur ut sed explicabo!</p>
+
+            <div class="row justify-content-center pt-4 gap-4">
+              <div class="col col-md-5 col-12 shadow p-3 rounded">
+                <img src="./assets/gambar/projek1.webp" alt="projek pertama" width="100%">
+                <h4 class="pt-4">Projek pertama</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                   Minus cupiditate eius tempora magnam optio hic!</p>
+                <div>
+                  <a href="" class="btn btn-dark" target="_blank">Github</a>
+                  <a href="" class="btn btn-danger" target="_blank">View website</a>
+                </div>
+              </div>
+
+              <div class="col col-md-5 col-12 shadow p-3 rounded">
+                <img src="./assets/gambar/projek2.webp" alt="projek pertama" width="100%">
+                <h4 class="pt-4">Projek pertama</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                   Minus cupiditate eius tempora magnam optio hic!</p>
+                <div>
+                  <a href="" class="btn btn-dark" target="_blank">Github</a>
+                  <a href="" class="btn btn-danger" target="_blank">View website</a>
+                </div>
+              </div>
+
+              <div class="col col-md-5 col-12 shadow p-3 rounded">
+                <img src="./assets/gambar/projek3.webp" alt="projek pertama" width="100%">
+                <h4 class="pt-4">Projek pertama</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                   Minus cupiditate eius tempora magnam optio hic!</p>
+                <div>
+                  <a href="" class="btn btn-dark" target="_blank">Github</a>
+                  <a href="" class="btn btn-danger" target="_blank">View website</a>
+                </div>
+              </div>
+
+              <div class="col col-md-5 col-12 shadow p-3 rounded">
+                <img src="./assets/gambar/projek4.webp" alt="projek pertama" width="100%">
+                <h4 class="pt-4">Projek pertama</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                   Minus cupiditate eius tempora magnam optio hic!</p>
+                <div>
+                  <a href="" class="btn btn-dark" target="_blank">Github</a>
+                  <a href="" class="btn btn-danger" target="_blank">View website</a>
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+    <!--section project-->
+
+    <!--section faq-->
+    <div class="faq" id="faq">
+      <div class="container">
+        <div class="faq-box">
+          <h1 class="fw-bold mb-3 text-center" style="margin-top: 100px;">FAQ</h1>
+          <p class="lh-lg mb-3 text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, similique possimus quasi aspernatur ut sed explicabo!
+          </p>
+          <div class="accordion pt-4" id="accordionExample">
+            <div class="row row-cols-md-2 row-cols-1 g-4">
+    
+              <div class="col">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed bg-danger text-white fw-bold lh-lg rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Apakah layanan ini dapat diakses selamanya?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed bg-danger text-white fw-bold lh-lg rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                      Apakah mahal?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed bg-danger text-white fw-bold lh-lg rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                      Bagaimana saya menghubungi layanan?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed bg-danger text-white fw-bold lh-lg rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                      Apakah layanan ini gratis?
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the fourth item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed bg-danger text-white fw-bold lh-lg rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                      Apa yang bisa saya dapatkan?
+                    </button>
+                  </h2>
+                  <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the fifth item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingSix">
+                    <button class="accordion-button collapsed bg-danger text-white fw-bold lh-lg rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                      Bagaimana cara mengakses layanan ini?
+                    </button>
+                  </h2>
+                  <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the sixth item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--section faq-->
+
+    <!-- footer -->
+     <section class="footer bg-danger">
+      <div class="container">
+        <div class="footer-box">
+          <div class="row justify-content-between gy-4">
+            <div class="col col-md-4 col-12 text-white">
+              <div class="d-flex align-items-center gap-3">
+                <img src="./assets/icon/nm.png" alt="" width="30" height="30" 
+                class="d-inline-block align-text-top rounded">
+                  <h2 class="fw-bold text-white">Ngoding</h2>
+              </div>
+              <p class="lh-lg opacity-75 m-0">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Nesciunt repudiandae molestiae officia voluptatum quis ad 
+                 iste alias sequi omnis. Officiis.
+              </p>
+            </div>
+
+            <div class="col col-md-2 col-12 d-flex flex-column text-white gap-2">
+              <h4 class="fw-bold">Menu</h4>
+              <a href="#home" class="text-white text-decoration-none">Home</a>
+              <a href="#about" class="text-white text-decoration-none">About</a>
+              <a href="#service" class="text-white text-decoration-none">Services</a>
+              <a href="#projek" class="text-white text-decoration-none">Projects</a>
+              <a href="#faq" class="text-white text-decoration-none">FAQ</a>
+            </div>
+
+            <div class="col col-md-4 col-12 d-flex flex-column text-white gap-2">
+              <h4 class="fw-bold">Contact Us</h4>
+             <p class="m-0 d-flex align-items-center gap-2">
+              <i class="fa-solid fa-envelope"></i>
+             fp3175723@gmail.com
+             </p>
+
+             <p class="m-0 d-flex align-items-center gap-2">
+              <i class="fa-solid fa-phone"></i>
+             0875237898
+             </p>
+
+             <p class="m-0 d-flex align-items-center gap-2">
+              <i class="fa-solid fa-location-dot"></i>
+              Jl. KH. Hasyim Asyari, Kel. Banjarmlati, Kec. Mojoroto, Kota Kediri, Jawa Timur
+             </p>
+            </div>
+          </div>
+        </div>
+        <div class="copyright text-center text-white">
+          <p class="lh-lg">&copy; copyright by <span class="fw-bold"> MFP</span> 2024, All Rights Reserved</p>
+        </div>
+      </div>
+     </section>
+    <!-- footer -->
+
+   
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
